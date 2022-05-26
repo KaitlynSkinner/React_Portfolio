@@ -20,3 +20,6 @@ function Resume() {
 }
 
 export default Resume;
+
+// GitHub URL - https://github.com/KaitlynSkinner/React_Portfolio 
+// Deployed URL - https://kaitlynskinner.github.io/React_Portfolio/

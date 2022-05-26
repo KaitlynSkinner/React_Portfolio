@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# React_Portfolio
 
+## Description
+My personal portfolio which features some of my github projects as well as my resume and technical skills.
+
+
+## Table of Contents
+  * [Features](#features)
+  * [Technology Used](#technologyused)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Deployed Application](#deployedapplication)
+  * [License](#license)
+  * [Credits](#credits)
+  * [Contribute](#contribute)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+
+## Features
+* Contact Me 
+* View my projects
+* View, download, and save my resume,
+
+
+## Technology Used
+* **Git:** Version control system to track changes to source code.
+
+* **GitHub:** Hosts repository that can be deployed to GitHub Pages.
+
+* **Node.js:** Used for package managment and to execute JavaScript code to build the command line tool for server-side scripting.
+
+* **React** is an open-source, declarative, component-based JavaScript library for building user interfaces. It’s maintained by Facebook, and it can be used to develop of single-page applications (SPA).
+
+* **React Testing Library (@testing-library/react)** offers simple and complete React DOM testing utilities that encourage good testing practices.
+
+* **React Router** is a collection of navigational components that compose declaratively with your application, allowing you to make single-page React applications behave more like multi-page applications.
+
+* **MongoDB Atlas:** is a cloud-based database service that's created and maintained by MongoDB. It works with hosting services such as AWS, Azure, and Google Cloud to help users provision, maintain, and secure new databases for their applications.
+
+* **The nodemon package** simplifies the development environment by automatically restarting the Node.js applications when file changes in the directory are detected.
+
+## Installation
+Download or clone the repository URL
+To install packages run the following command:
+  ```
+  # using npm
+  npm i //to install packages
+  ```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Usage
+ Once installed, type:
 
-### `npm start`
+```npm start```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes. You may also see any lint errors in the console.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```npm test```
 
-### `npm test`
+Launches the test runner in the interactive watch mode.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```npm run build```
 
-### `npm run build`
+Builds the app for production to the `build` folder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployed Application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## License
+This application does not have a license. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Credits
+The application does not have any collaborators at this time.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contribute
+This application is not open to contributors at this time.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tests
+This application does not have any tests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+If you have any questions please feel free to contact group members:
+** **
+**GitHub Username:** kaitlynskinner - Kaitlyn Skinner 
+** **
+**Email:** kaitlyneskinner@gmail.com
+** **
