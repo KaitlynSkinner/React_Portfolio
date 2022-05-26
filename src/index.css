@@ -308,3 +308,28 @@ a {
   margin-bottom: -4px;
   font-size: 15px;
 }
+
+.contact-form {
+  --bg-filter-opacity: 0.5;
+  height: 20em;
+  width: 40em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 3em;
+  align-items: end;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  border: 10px solid rgba(255, 255, 255, 0.534);
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.resume {
+  width: 45%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}

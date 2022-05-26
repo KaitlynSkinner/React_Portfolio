@@ -4,7 +4,7 @@ import resume from '../../assets/resume/Resume.pdf';
 function Resume() {
     return (
         <section>
-            <div className="container">
+            <div className="resume">
                 <iframe 
                     title="resume" 
                     src={`${resume}`} 
