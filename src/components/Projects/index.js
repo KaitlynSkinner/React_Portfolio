@@ -26,28 +26,6 @@ function Projects({ category }) {
       index: 1
     },
     {
-      // Blue Leaf Sports
-      name: 'Blue Leaf Sports',
-      category: 'Front-end',
-      tools: ['jQuery', 'jQuery UI', 'Function.css', 'Google Fonts'],
-      description: 'A real-world front-end application.',
-      image: './assets/small/Front-end/2.jpg',
-      github_url: 'https://github.com/KaitlynSkinner/Blue_Leaf_Sports',
-      deployed_url: 'https://kaitlynskinner.github.io/Blue_Leaf_Sports/',
-      index: 2
-    },
-    {
-      // README.md Generator
-      name: 'README Generator',
-      category: 'Server-side',
-      tools: ['Node.js', 'Inquirer'],
-      description: "A command-line application that dynamically generates a professional README.md file from a user's input",
-      image: './assets/small/Server-side/3.jpg',
-      github_url: 'https://github.com/KaitlynSkinner/README_Generator',
-      deployed_url: '',
-      index: 3
-    },
-    {
       // Employee_Team_Generator
       name: 'Employee Team Profile Generator',
       category: 'Object-oriented Programming',
@@ -104,15 +82,37 @@ function Projects({ category }) {
     },
     {
       // Glide_Carpool_App
-      name: 'Glide Carpool Application',
+      name: 'Glide',
       category: 'Full-stack',
       tools: ['Node.js', 'Express.js', 'Express.js Session', 'Handlebars.js', 'Sequelize', 'Seuqelize Connet Session', 'MySQL2', 'Dotenv', 'Bcrypt', 'Nodemon', 'JawsDB', 'Faker'],
-      description: "A carpooling app that helps drivers and passengers select activities. Users can signup and login to create or request rides to carpool to their selected activity. Users are able to meet new people as well as reduce their traveling costs.",
+      description: "A carpooling app that helps drivers and passengers select activities. Users can signup and login to create or request rides.",
       image: './assets/small/Full-stack/9.jpg',
       github_url: 'https://github.com/KaitlynSkinner/glide-carpool-app',
       deployed_url: 'https://glide-carpool-app.herokuapp.com/',
       index: 9
     },
+    {
+      // README.md Generator
+      name: 'README Generator',
+      category: 'Server-side',
+      tools: ['Node.js', 'Inquirer'],
+      description: "A command-line application that dynamically generates a professional README.md file from a user's input",
+      image: './assets/small/Server-side/3.jpg',
+      github_url: 'https://github.com/KaitlynSkinner/README_Generator',
+      deployed_url: '',
+      index: 3
+    },
+    {
+      // Blue Leaf Sports
+      name: 'Blue Leaf Sports',
+      category: 'Front-end',
+      tools: ['jQuery', 'jQuery UI', 'Function.css', 'Google Fonts'],
+      description: 'A real-world front-end application.',
+      image: './assets/small/Front-end/2.jpg',
+      github_url: 'https://github.com/KaitlynSkinner/Blue_Leaf_Sports',
+      deployed_url: 'https://kaitlynskinner.github.io/Blue_Leaf_Sports/',
+      index: 2
+    }
   ]);
 
   // const currentProject = projects.filter(project => project.category === category);
@@ -134,7 +134,7 @@ function Projects({ category }) {
           {/* <p>{project.category}</p>
           <p>{project.tools}</p> */}
           <a className="project-margin" href={project.github_url}>GitHub URL</a>
-          <a href={project.deployed_url}>Deployed URL</a>
+          <a className="project-margin" href={project.deployed_url}>Deployed URL</a>
           </div>
         ))}
       </div>

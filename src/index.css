@@ -275,9 +275,9 @@ a {
 .project-imgs {
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 28em;
-  width: 15em;
-  /* font-size: 1em; */
+  height: 31em;
+  width: 13em;
+  margin-top: -10px;
   color: white;
   border-radius: 1em;
   padding: 1em;
@@ -302,4 +302,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.project-margin {
+  margin-bottom: -4px;
+  font-size: 15px;
 }
