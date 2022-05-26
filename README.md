@@ -68,9 +68,9 @@ Builds the app for production to the `build` folder.
 
 ## Deployed Application
 ** **
-![Deployed Application](?raw=true)
+![Deployed Application](https://github.com/KaitlynSkinner/React_Portfolio/blob/414fe9e91615baf7486feb14e81d3911adbc7772/public/assets/readme/Mockup-1.png?raw=true)
 ** **
-![Deployed Application](?raw=true)
+![Deployed Application](https://github.com/KaitlynSkinner/React_Portfolio/blob/414fe9e91615baf7486feb14e81d3911adbc7772/public/assets/readme/Mockup-2.png?raw=true)
 
 
 ## License
